@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710074134989",
+    "project_id": "budgetshield-6dad5",
+    "storage_bucket": "budgetshield-6dad5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710074134989:android:b4dc5fca20837bf8651484",
+        "android_client_info": {
+          "package_name": "com.example.budgetshield"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc625qINeiyvUYQOeqoi_wncLY0-luij0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

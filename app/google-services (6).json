@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "710074134989",
+    "project_id": "budgetshield-6dad5",
+    "storage_bucket": "budgetshield-6dad5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710074134989:android:b4dc5fca20837bf8651484",
+        "android_client_info": {
+          "package_name": "com.example.budgetshield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710074134989-8h8fst536m404miuti0ungcfqgmmd6ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.budgetshield",
+            "certificate_hash": "54cae93366479398bb4625b3c11c72b3e35ad223"
+          }
+        },
+        {
+          "client_id": "710074134989-f9ojhbv7dleih3l3oltud0gooqmluv3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc625qINeiyvUYQOeqoi_wncLY0-luij0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710074134989-f9ojhbv7dleih3l3oltud0gooqmluv3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Enter Symbol"
+            android:iconifiedByDefault="false"
+            android:queryBackground="@android:color/transparent"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/searchview_back"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout1b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/textColorTertiary"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent Transaction"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_member"
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            tools:listitem="@layout/item_member"/>
+
+        <Button
+            android:id="@+id/AddNewbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Add New"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
